@@ -1,0 +1,111 @@
+main{
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Lobster', cursive;
+}
+.sec1{
+    min-height: 10vh;
+    background: whitesmoke;
+}
+.sec1 img{
+    width: 10vw;
+    min-height: 10vh;
+    float: left;
+}
+.sec1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+}
+ul li{
+    width: 100px;
+    float: left;
+    text-align: center;
+    padding-top: 22px;
+}
+li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(240, 9, 143);
+}
+.sec2{
+    width: 100%;
+    min-height: 500px;
+    background:url(../images/mon.jpg) no-repeat center/cover;
+    text-align: center;
+    position: relative;
+}
+#par1{
+    width: 80vw;
+    box-sizing: border-box;
+    border: 2px solid blueviolet;
+    position: absolute;
+    top: 330px;
+    right: 100px;
+    background: rgba(218, 193, 241,.5);
+    background-blend-mode: multiply;
+    
+}
+.sec3{
+    width: 100%;
+    min-height: 500px;
+    background:url(../images/ice.jpg) no-repeat center/cover;
+    text-align: center;
+    position: relative;
+}
+#par2{
+    width: 50vw;
+    min-height: 300px;
+    box-sizing: border-box;
+    border: 3px solid rgb(246, 243, 248);
+    background: white;
+    position: absolute;
+    top:150px;
+    right: 0;
+}
+.sec4{
+    width: 100%;
+    min-height: 500px;
+    background:url(../images/sea.png) no-repeat center/cover;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+#par3{
+    width: 50vw;
+    min-height: 300px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    left: 300px;
+}
+.sec4  h6{
+    float: right;
+    color: rgb(243, 235, 233);
+    border: 2px  solid red;
+    background: red;
+}
+.sec5 {
+    width: 100%;
+    min-height:300px;  
+    background: #f3f1eb;
+    vertical-align: bottom;
+    position: relative;
+    padding: 30px;
+}
+
+.sec5 figure{
+    display: inline-block;
+}
+
+footer{
+    background: rgb(247, 221, 188);
+    text-align: center;
+    line-height:50px ;
+    clear: both;
+    height: 50px;
+}

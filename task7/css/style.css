@@ -1,0 +1,446 @@
+mean{
+   width: 100%;
+   height: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    min-height: 70vh;
+    background: url(../images/b1.jpg) no-repeat center/cover;
+    flex-flow:row wrap ;
+    overflow: hidden;
+}
+.section{
+    height: 50px;
+    padding-left: 15px;
+    color: white;
+}
+.section p{
+    width: 30%;
+    float: left;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}  
+ul li{
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: blue;
+}
+.part1{
+    width: 25%;
+    height: 20vh;
+    border: 2px solid rgb(238, 238, 60);
+    position: relative;
+    top: 120px;
+    left: 20%;
+    z-index: 0;
+}
+.part2{
+    width: 20%;
+    height: 15vh;
+    border: 2px solid rgb(235, 235, 227);
+    position: absolute;
+    top: 240px;
+    left: 30%;
+    z-index: 1;
+    background: rgba(245, 238, 238, 0.767);
+    padding-left: 10px;
+}
+.part2 h3{
+    color: rgb(25, 80, 25);
+}
+.poster{
+    width: 80%;
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding-left: 10%;
+}
+.section2{
+    width: 20%;
+    min-height: 50vh;
+    display: flex;
+    position: relative;
+    perspective: 600px; 
+}
+.card{
+    width: 100%;
+    height:100% ;
+    position: absolute;
+    transition: all 1s;
+    transform-style: preserve-3d;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:url(../images/g2.jpg) no-repeat center/cover;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    background:rgb(128, 119, 218);
+    color: #fff;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    overflow: hidden;
+    box-sizing: border-box;
+    padding:10px ;
+    border-radius: 20px;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.front1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:url(../images/g3.jpg) no-repeat center/cover;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+.front3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:url(../images/g4.jpg) no-repeat center/cover;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+.front2{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    background: rgba(233, 218, 211, 0.61);
+    backface-visibility: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.front2 h2{
+    color: rgb(255, 171, 68);
+}
+.front2 p{
+    color:rgb(75, 69, 64);
+}
+.section3{
+    width: 100%;
+    min-height: 45vh;
+    background: url(../images/b3.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px; 
+}
+.section3 i{
+    color: white;
+    border:2px solid white ;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+.section3 i p{
+    font-size: 16px;
+    color: orange;
+}
+.section3 p{
+    color: white;
+}
+.section3 h4{
+    color: orange;
+}
+span{
+    text-align: center;
+    font-size: 20px;
+}
+span h3{
+    color: orange;  
+}
+.section4{
+    width: 80%;
+    min-height: 70vh;
+    margin-left: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section4 i{
+    padding-top: 20px;
+    color: rgb(99, 95, 95);
+}
+.lab{
+    width: 25%;
+    min-height: 30vh;
+    border: 2px solid rgb(121, 110, 110);
+    border-radius: 20px;
+    transition: all 1s;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.lab h2{
+    color:rgb(74, 170, 74);
+}
+.lab p{
+    color: rgb(125, 129, 122);
+}
+.lab:hover{
+    box-shadow: 5px 5px rgb(190, 187, 187);
+}
+.section5{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+.section5 img{
+    width: 50%;
+    min-height: 50vh;
+    background-repeat: no-repeat ;
+}
+.section5 span{
+    width: 40%;
+    min-height: 50vh;
+    overflow: hidden;
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: rgb(151, 145, 145);
+}
+.section5 span h2{
+    color: green;
+}
+.section6{
+    width: 80%;
+    height: 70vh;
+    margin-left: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img1{
+    width: 25%;
+    height: 45%;
+    background: url(../images/g4.jpg) no-repeat center/cover;
+}
+.img2{
+    width: 25%;
+    height: 45%;
+    background: url(../images/g5.jpg) no-repeat center/cover;
+}
+.img3{
+    width: 45%;
+    height: 45%;
+    background: url(../images/g6.jpg) no-repeat center/cover;
+}
+.img4{
+    width: 45%;
+    height: 45%;
+    background: url(../images/ab4.jpg) no-repeat center/cover;
+}
+.img5{
+    width: 25%;
+    height: 45%;
+    background: url(../images/g2.jpg) no-repeat center/cover;
+}
+.img6{
+    width: 25%;
+    height: 45%;
+    background: url(../images/g3.jpg) no-repeat center/cover;
+}
+.section7{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.img7{
+    width: 40%;
+    min-height: 50%;
+    background: rgb(202, 199, 199);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.img8{
+    width: 40%;
+    min-height: 50%;
+    background: url(../images/b4.jpg) no-repeat center/cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.img9{
+    width: 40%;
+    min-height: 50%;
+    background: url(../images/g6.jpg) no-repeat center/cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.img10{
+    width: 40%;
+    min-height: 50%;
+    background: rgb(202, 199, 199);
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section7 h3{
+    color: rgb(53, 170, 72);
+}
+button{
+    background: black;
+    color: white;
+}
+button:hover{
+    box-shadow: 2px 2px rgb(228, 143, 190);
+}
+.section8{
+    width: 80%;
+    min-height: 50vh;
+    margin-left: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tik1,.tik2,.tik3,.tik4{
+    width: 20%;
+    min-height: 50vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.section8 img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+.section8 span{
+    float: right;
+    color: orange;
+}
+.section8 button{
+    color: rgb(10, 175, 10);
+    background: white;
+    border: none;
+}
+.section8 h3{
+    color: orange;
+}
+.section9{
+    width: 100%;
+    min-height: 40vh;
+    background: url(../images/b4.jpg) no-repeat center/cover;
+     overflow: hidden;
+     text-align: center;
+     padding-top: 5%;
+}
+.section9 h4{
+    color: white;
+}
+.section9 h3{
+    color: orange;
+}
+.section9 form{
+    width: 30%;
+    min-height: 25%; 
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.section9 input[type=email]{
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 70%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.section9 button{
+    border: 2px solid orange;
+    color:white;
+    background: rgb(11, 221, 11);
+    border-radius: 10px;
+    width: 30%;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.section10{
+    width: 80%;
+    min-height: 50vh;
+    margin-left: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section10 form{
+    width: 45%;
+    height: 100%;
+    margin:10px; 
+    padding-top: 20px;
+}
+.section10 input[type=text],input[type=email],input[type=password]{
+        border: 2px solid rgb(165, 163, 160);
+        border-radius: 5px;
+        width: 40%;
+        padding: 5px;
+}
+.section10 textarea{
+    width: 83%;
+    height: 40%;
+    border: 2px solid rgb(165, 163, 160);
+    border-radius: 5px;
+    padding: 5px;
+}
+.section10 button{
+    width: 84%;
+    border: 2px solid rgb(165, 163, 160);
+    background: rgb(50, 205, 63);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+.section11{
+    width: 100%;
+    height: 40vh;
+    background: rgba(63, 57, 57, 0.623);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 60px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.section11 span{
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+i{
+    font-size: 36px;
+    color: rgb(40, 40, 189);
+}

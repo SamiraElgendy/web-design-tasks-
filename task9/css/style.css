@@ -1,0 +1,103 @@
+main{
+    width: 100%;
+    height: 100%;
+ }
+.section1{
+    min-height: 70vh;
+    background: url(../images/bg.jpg) no-repeat center/cover;
+}
+.section3{
+    min-height: 70vh;
+}
+.img1{
+    min-height: 250px;
+    background: url(../images/about-pic1.jpg)no-repeat center/cover ;
+}
+.img2{
+    min-height: 250px;
+    background: url(../images/about-pic3.jpg)no-repeat center/cover ;
+}
+.img3{
+    min-height: 250px;
+    background: url(../images/about-pic2.jpg)no-repeat center/cover ;
+}
+.img4{
+    min-height: 250px;
+    background: url(../images/portpic1.jpg)no-repeat center/cover ;
+}
+.img5{
+    min-height: 250px;
+    background: url(../images/portpic2.jpg)no-repeat center/cover ;
+}
+.img6{
+    min-height: 250px;
+    background: url(../images/portpic3.jpg)no-repeat center/cover ;
+}
+.img7{
+    min-height: 250px;
+    background: url(../images/portpic4.jpg)no-repeat center/cover ;
+}
+.img8{
+    min-height: 250px;
+    background: url(../images/portpic5.jpg)no-repeat center/cover ;
+}
+.img9{
+    min-height: 250px;
+    background: url(../images/portpic6.jpg)no-repeat center/cover ;
+}
+.img10{
+    min-height: 250px;
+    background: url(../images/portpic7.jpg)no-repeat center/cover ;
+}
+.img11{
+    min-height: 250px;
+    background: url(../images/portpic8.jpg)no-repeat center/cover ;
+}
+.img12{
+    min-height: 250px;
+    background: url(../images/portpic9.jpg)no-repeat center/cover ;
+}
+.img13{
+    min-height: 150px;
+    background: url(../images/p-bg1.jpg)no-repeat center/cover ;
+}
+.img14{
+    min-height: 150px;
+    background: url(../images/p-bg2.jpg)no-repeat center/cover ;
+}
+.img15{
+    min-height: 150px;
+    background: url(../images/p-bg3.jpg)no-repeat center/cover ;
+}
+.img16{
+    min-height: 150px;
+    background: url(../images/p-bg4.jpg)no-repeat center/cover ;
+}
+.section4{
+    min-height: 50vh;
+    background: url(../images/process-bg.jpg) no-repeat center/cover;
+}
+.section5{
+    min-height: 30vh;
+}
+.section6{
+    min-height: 40vh;
+}
+.section7{
+    min-height: 80vh;
+}
+.text-orange{
+    color: var(--bs-orange);
+}
+.bg-orange{
+    background: var(--bs-orange);
+}
+.bg-white{
+    background: var(--bs-white);
+}
+footer{
+    min-height: 100px;
+}
+
+
+

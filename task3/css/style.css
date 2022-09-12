@@ -1,0 +1,148 @@
+#sec1{
+    background: rgba(100, 148, 237, 0.418);
+    min-height: 400px;
+    
+}
+.na p{
+    float: left;
+    padding-left: 20px;
+}
+#n2{
+    float: right;
+}
+ul{
+    text-transform: capitalize;
+} 
+a{
+
+    padding: 5px ;
+}
+ ul a:hover{
+    color: rgb(252, 23, 233);
+    background: rgba(56, 16, 201, 0.897);
+} 
+nav{
+    width:100%;
+    min-height: 50px;
+    margin: auto;
+    padding-right: 20px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    float:left;
+}
+nav ul li a{
+    color: rgb(14, 7, 7);
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 50px;
+}
+nav ul li:hover{
+    background: rgba(31, 100, 204, 0.301);
+}
+nav .submenu {
+    overflow: hidden;
+    height: 0;
+}
+.dropdown:hover .submenu{
+    height: 150px;
+}  
+#dow{
+    text-align: center;
+}
+.sec2{
+    margin: outo;
+    min-height: 400px;
+    background: rgba(141, 166, 243, 0.349);
+    
+}
+.sec2 span{
+ width: 50%;
+float: left;
+text-align: justify;
+padding-left: 50px;
+padding-right: 50px;
+font-size: large;
+}
+.sec2 img{
+float: right;
+padding-left: 50px;
+padding-right: 50px;
+}
+.sec3{
+    margin: outo;
+    min-height: 400px;
+    background: rgba(100, 148, 237, 0.295);
+}
+.sec3 img{
+    float: right;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.sec3 div{
+    width: 50%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.sec3 table{
+    width: 100%;
+    min-height: 200px;
+    padding-right: 50px;
+    text-align: center;
+
+}
+th{
+    background: rgb(240, 106, 133);
+}
+tr:nth-child(even) {
+    background-color: #d4c3c3;
+}
+tr:nth-child(odd) {
+     background-color: #ccc9c9;
+}  
+.sec4{
+    margin: outo;
+    min-height: 400px;
+    background: rgba(141, 166, 243, 0.267);
+}
+.par1{
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#p1{
+    box-sizing: border-box;
+    border: 1px  solid black;
+    border-radius: 20px;
+    padding: 5px;
+    background: blanchedalmond;
+}
+#p2{
+    box-sizing: border-box;
+    border: 1px  solid black;
+    border-radius: 20px;
+    padding: 5px;
+    background: rgb(211, 190, 158);
+}
+ .par2 {
+    float: right;
+    width: 30%;
+    text-align: justify;
+    margin-top: 80px;
+    
+}
+
+#sec5{
+    background: rgba(100, 148, 237, 0.253);
+    min-height: 200px;
+    text-align: center;
+}

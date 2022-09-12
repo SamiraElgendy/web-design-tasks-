@@ -1,0 +1,54 @@
+        body {
+            width: 100%;
+            height: 700px;
+            overflow: hidden;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .parant {
+            width: 100%;
+            height: 100%;
+            background: blue;
+            position: relative;
+        }
+        
+        .p1 {
+            width: 100%;
+            height: 90%;
+            clip-path: polygon(100% 0, 73% 0, 100% 69%);
+            background: red;
+            position: absolute;
+        }
+        
+        .p2 {
+            width: 60%;
+            height: 100%;
+            clip-path: polygon(79% 41%, 100% 71%, 75% 100%, 0% 100%, 0 71%, 0 40%);
+            background: rgb(14, 224, 24);
+            position: absolute;
+        }
+        
+        .p3 {
+            width: 100%;
+            height: 100%;
+            clip-path: polygon(64% 82%, 93% 81%, 100% 65%, 100% 100%, 47% 100%);
+            background: blueviolet;
+            position: absolute;
+        }
+        
+        .p4 {
+            width: 100%;
+            height: 100%;
+            clip-path: polygon(58% 31%, 75% 48%, 24% 100%, 7% 81%);
+            background: rgba(43, 183, 226, 0.445);
+            position: absolute;
+        }
+        
+        .p5 {
+            width: 100%;
+            height: 100%;
+            clip-path: inset(39% 31% 36% 52%);
+            background: url(/d2.jpg) no-repeat center/cover;
+            position: absolute;
+        }
